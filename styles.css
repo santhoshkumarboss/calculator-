@@ -1,0 +1,45 @@
+*{
+    border:0px;
+    margin:0px;
+}
+.computer{
+    background-color:rgb(20, 204, 60);
+    color:black;
+    height:200px;
+}
+.header{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:50px;
+}
+.list{
+   color:lightslategrey;
+}
+li{
+    display:inline;
+    font-size: 30px;
+    padding-bottom:20%;
+}
+ul{
+    padding-left: 60%;
+    padding-top: 20px;
+}
+li:hover{
+    color:white;
+    transform:translatey(-4px) scale(1.02);
+    cursor:pointer;
+
+}
+h2{
+    text-align:center;
+    color:aqua;
+}
+.footer{
+    background-color:black;
+    color:white;
+    height:200px;
+    font-size:20px;
+}
+.image{
+    display:flex;
+    justify-content:space-between
+}
